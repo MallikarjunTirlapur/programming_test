@@ -23,7 +23,7 @@ Publish your result after processing the incoming number and in addition forward
 5. Publish your solution after you have incorporated the latest incoming data point. 
 Include (forward) the incoming data point on the *input* slot of the message.
 6. Add your node to the launch file.
-7. Send your solution to the maintainer
+
 
 
 
