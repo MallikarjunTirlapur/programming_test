@@ -4,7 +4,7 @@
 Write a ROS node that calculates the moving maximum (running maximum) over 1000 samples in (soft) realtime of an incoming stream of Uint64s.
 Publish your result after processing the incoming number and in addition forward the incoming number to the verifying node.
 
-####Requirements
+### Requirements
 * a working ROS distribution
 * Indigo or Jade
 * Python 2.7
