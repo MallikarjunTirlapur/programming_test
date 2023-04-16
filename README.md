@@ -30,10 +30,10 @@ Include (forward) the incoming data point on the *input* slot of the message.
 The data structure queue has been used to calculate the moving maximum over 1000 samples in realtime of an incoming stream. 
 
 The window size is 1000. 
-The incoming data is en-queued into the queue till queue reaches 1000.
-     In the mean time maximum is calculated in the real time from the elements in the growing queue.
-     The incoming data and result are published on input and solution slot of the message respectively.        
-Once after the size of the queue reaches 1000, The maximum out of 1000 numbers is calculated.
+The incoming data is en-queued into a queue untill queue reaches 1000.
+In the mean time maximum is calculated in the real time from elements in the growing queue.
+The incoming data and result are published on input and solution slot of the message respectively.        
+Once the size of the queue reaches 1000, The maximum out of 1000 numbers is calculated.
 De-queued the oldest number to give a room to the newest number.
-The incoming number is published on the input slot  and result on the solution slot of the message.
+The incoming number is published on the input slot and result on the solution slot of the message.
 Process repeated.
